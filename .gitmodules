@@ -1,0 +1,6 @@
+[submodule "sam3"]
+	path = sam3
+	url = https://github.com/facebookresearch/segment-anything.git
+[submodule "meta_models"]
+	path = meta_models
+	url = https://github.com/facebookresearch/perception_models.git
