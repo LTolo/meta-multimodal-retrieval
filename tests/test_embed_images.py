@@ -1,12 +1,17 @@
-import cv2
-import numpy as np
+import sys
+import os
+
+# --- FORCE project root into sys.path ---
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if ROOT not in sys.path:
+    sys.path.insert(0, ROOT)
+
+# --- now imports ALWAYS work ---
 from pipeline.embed_images import embed_image
+import cv2
 
-# Testbild laden
-image_path = "tests/sample.jpg"  # lege ein kleines Testbild hier ab
-image = cv2.imread(image_path)
-
+image = cv2.imread("tests/sample.jpg")
 meta_emb, mask_emb = embed_image(image)
 
 print("Meta embedding shape:", meta_emb.shape)
-print("SAM-3 mask embedding shape:", mask_emb.shape)
+print("SAM embedding shape:", mask_emb.shape)
