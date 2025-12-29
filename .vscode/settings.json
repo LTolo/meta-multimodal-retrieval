@@ -1,3 +1,24 @@
 {
-  "python.analysis.extraPaths": ["./meta_models/core"]
+  // Use project-local .env file
+  "python.envFile": "${workspaceFolder}/.vscode/.env",
+
+  // Tell Pylance where to find local modules
+  "python.analysis.extraPaths": [
+    "./",
+    "./meta_models/core"
+  ],
+
+  // Use default interpreter in the workspace
+  "python.defaultInterpreterPath": "python",
+
+  // Optional but recommended for tests
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+
+  // Formatting (optional, but clean)
+  "python.formatting.provider": "black",
+
+  // Linting (optional)
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": false
 }
