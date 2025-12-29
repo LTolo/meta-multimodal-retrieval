@@ -1,0 +1,8 @@
+torch
+torchvision
+opencv-python
+numpy
+faiss-cpu
+streamlit
+git+https://github.com/facebookresearch/perception_models.git
+git+https://github.com/facebookresearch/segment-anything.git
