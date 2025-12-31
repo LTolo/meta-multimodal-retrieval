@@ -1,6 +1,10 @@
 # Meta Multimodal Retrieval
-> [!CAUTION]
-> **Project Status: In Progress**
+
+![Status](https://img.shields.io/badge/Project_Status-In_Progress-yellow)
+
+> [!IMPORTANT]
+> **Current State: In Progress**
+
 
 
 This project demonstrates **multimodal retrieval** across video, image and text
