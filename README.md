@@ -1,5 +1,6 @@
 # Meta Multimodal Retrieval
-## In Progress
+> [!CAUTION]
+> **Project Status: In Progress**
 
 
 This project demonstrates **multimodal retrieval** across video, image and text
