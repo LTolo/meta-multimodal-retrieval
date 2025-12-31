@@ -20,7 +20,7 @@ using **Meta Research Perception Models** and **SAM segmentation**.
 
 ## Architecture
 - meta_models as Git Submodule
-- SAM-3 integration for mask embeddings
+- SAM integration for mask embeddings
 - Embedding pipeline (video frames, images, text)
 - FAISS for efficient retrieval
 - Streamlit for demo
