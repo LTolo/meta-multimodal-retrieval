@@ -8,7 +8,7 @@
 
 
 This project demonstrates **multimodal retrieval** across video, image and text
-using **Meta Research Perception Models** and **SAM-3 segmentation**.
+using **Meta Research Perception Models** and **SAM segmentation**.
 
 ## Features
 - Text → Video/Image retrieval
